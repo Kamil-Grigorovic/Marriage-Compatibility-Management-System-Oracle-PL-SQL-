@@ -1,5 +1,4 @@
 SET SERVEROUTPUT ON;
-SPOOL "C:\Users\kamil\OneDrive\Stalinis kompiuteris\VU\Oracle PL_SQL\1_lab\rezultatass.txt"
 
 DROP TABLE sekmingaSantuoka;
 DROP TABLE santuoka;
@@ -708,5 +707,3 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Pabaiga');
 END;
 /
-
-SPOOL OFF
